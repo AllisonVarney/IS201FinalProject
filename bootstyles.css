@@ -1,0 +1,59 @@
+.unorderlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(28, 11, 216);
+  }
+
+.background{
+    background-image: url(../IMAGES/pexels-evie-shaffer-2512281.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header{
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  height: 100px;
+  border-bottom: solid 1px #555555;
+}
+.mainbody{
+  top: 114px;
+  bottom: 64px;
+  right: 114px;
+  left: 114px;
+  padding-right: 5px;
+}
+.footer{
+  bottom: 5px;
+  height: 50px;
+  left: 5px;
+  right: 5px;
+  font-size: 14px;
+  color:rgb(250, 250, 250);
+  text-align: center;
+  position: fixed;
+  background-color: black;
+}
+
+.bold{
+  font-weight: bold;
+}
